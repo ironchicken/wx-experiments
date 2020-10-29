@@ -5,6 +5,8 @@ import Graphics.UI.WX
 main :: IO ()
 main = start gui
 
-gui :: IO (Frame ())
+gui :: IO ()
 gui = do
-  frame [text := "Hello!"]
+  f <- frame [text := "Hello!"]
+  q <- button f [text := "Quit", on command := close f]
+  set f [layout := widget q]
