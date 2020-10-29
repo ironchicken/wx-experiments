@@ -1,0 +1,12 @@
+resolver: lts-14.27
+packages:
+  - .
+extra-deps:
+  - git: https://github.com/wxHaskell/wxHaskell.git
+    commit: b7ac21d1dba48076dc7538d1967a14d59cfeb615
+    subdirs:
+      - wx
+      - wxcore
+      - wxc
+      - wxdirect
+  - Cabal-2.4.1.0@sha256:8aef21305c2324214944983e9dd118e65063b2e04f8c597db875298f602f6f12,21831
