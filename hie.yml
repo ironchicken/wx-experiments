@@ -1,4 +1,4 @@
 cradle:
   stack:
-    - path: "././Main.hs"
-      component: "wx-experiments:exe:wxtest"
+    - path: "./prog/Simple.hs"
+      component: "wx-experiments:exe:simple"
