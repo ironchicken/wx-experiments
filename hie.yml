@@ -2,3 +2,6 @@ cradle:
   stack:
     - path: "./prog/Simple.hs"
       component: "wx-experiments:exe:simple"
+
+    - path: "./prog/Bouncy.hs"
+      component: "wx-experiments:exe:bouncy"
